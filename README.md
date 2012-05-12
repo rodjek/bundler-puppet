@@ -7,4 +7,4 @@ github "puppetlabs/puppetlabs-stdlib"
 forge "puppetlabs-firewall"
 ```
 
-`# bundle install --path modules`
+`# pundle install --path modules`

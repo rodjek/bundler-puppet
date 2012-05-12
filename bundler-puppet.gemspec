@@ -9,5 +9,7 @@ Gem::Specification.new do |s|
     Add support to bundler so that it can manage Puppet modules from git &
     the forge.
   EOF
+  s.files = ['lib/bundler/puppet.rb', 'bin/pundle']
+  s.executables = ['pundle']
   s.add_dependency 'bundler'
 end
