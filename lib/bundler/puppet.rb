@@ -72,5 +72,9 @@ module Bundler
     def install_path
       home
     end
+
+    def cache
+      bundle_path.join(".cache/bundler")
+    end
   end
 end
