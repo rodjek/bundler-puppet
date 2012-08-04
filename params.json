@@ -1,0 +1,1 @@
+{"note":"Don't delete this file! It's used internally to help with page regeneration.","name":"Bundler-puppet","google":"","tagline":"","body":"## End goal\r\n\r\n/etc/puppet/Gemfile\r\n```\r\ngit \"git://github.com/foo/bar.git\"\r\ngithub \"puppetlabs/puppetlabs-stdlib\"\r\nforge \"puppetlabs-firewall\"\r\n```\r\n\r\n`# pundle install --path modules`\r\n"}
